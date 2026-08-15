@@ -38,4 +38,31 @@ It gives all the names of columns present in the dataset
 
 
 FILTERING:
-wergdvcd
+
+1-select specific cloumns
+2- filter rows
+3- combine multiple conditions
+
+1- selecting columns - square brackets
+2- selecting rows - boolean conditions
+
+Selecting columns
+it returns--
+1- a series (single column of data)
+2- dataframe (multiple columns of data)
+Example--
+-Accecing single column
+column=df["Column Name"]
+
+-Accecing multiple columns
+subset=df["Column1","Column2","Column3"]
+
+
+Filtering rows
+Using boolean indexing
+Example--
+-Based on a single condition
+filtered_Rows=df[df["Salary"]>50000]
+
+-combine multiple conditions
+filtered_Rows=df[(df["salary"]>50000) & (df["Column2] < 80000)]
