@@ -1,0 +1,40 @@
+Why do we need to understand data
+1- understand the problems
+2- identify the problems
+3- plan next steps
+
+SUMMARY:
+1- cloumns, rows
+2- what type of data
+3- missing data
+
+info()
+method
+
+1- number of rows and columns
+2- columns name
+3- int64 float64 object
+4- non null counts
+5- memory usage of the data frame
+
+
+ANALYSING dataset
+1- how big is your dataset
+2- what are the names of columns
+
+shape and columns
+
+shape -
+It is an attribute 
+Show number of row and columns in the dataset
+It is a attribute which will return tuple in which it gives 2 values-
+number of rows & number of columns
+To find size of dataset
+
+columns-
+It is an attribute
+It returns name of column as an index object (in single click it will provide all the names of columns)
+It gives all the names of columns present in the dataset
+
+
+FILTERING:
