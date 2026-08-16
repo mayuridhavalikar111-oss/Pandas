@@ -15,7 +15,7 @@ data={
 
 df=pd.DataFrame(data)
 print(df)
-#df.dropna(axis=0, inplace=True) 
+df.dropna(axis=0, inplace=True) 
 
 
 
@@ -23,5 +23,9 @@ print(df)
 #fillna(value, inplace-True)  the missing data will get replaced by the given value
 
 df.fillna(0, inplace=True)
+print(df)
+
+
+df["Salary"].fillna(df["Salary"].mean(), inplace=True)
 print(df)
 
