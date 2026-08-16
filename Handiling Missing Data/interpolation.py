@@ -23,3 +23,10 @@ df["Value"]=df["Value"].interpolate(method="linear")
 print("After interpolation")
 print(df)
 
+'''
+Where to use interpolation
+1- timer series data
+2- numeric data which follows trend
+3- avoide droping data
+'''
+
