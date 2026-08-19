@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-df_coustomers=pd.DataFrame({
+df_customers=pd.DataFrame({
     'CoustomerID':[1,2,3],
     'Name':['ABC','XYZ','PQR']
 })
